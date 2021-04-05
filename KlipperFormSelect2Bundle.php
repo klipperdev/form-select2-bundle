@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Klipper\Module\RepairBundle;
+namespace Klipper\Bundle\FormSelect2Bundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
