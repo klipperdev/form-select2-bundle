@@ -13,6 +13,7 @@
     "prefer-stable": true,
     "require": {
         "doctrine/orm": "^2.7.0",
+        "klipper/form-bundle": "^2.0.0",
         "symfony/config": "^5.2.0",
         "symfony/dependency-injection": "^5.2.0",
         "symfony/doctrine-bridge": "^5.2.0",
