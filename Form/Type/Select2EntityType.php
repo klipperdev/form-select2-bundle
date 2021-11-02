@@ -28,6 +28,8 @@ class Select2EntityType extends AbstractAjaxEntityType
     {
         $view->vars['attr'] = array_merge($view->vars['attr'], [
             'data-ajax--url' => $this->generateAjaxUrl($options),
+            'data-allow-clear' => !$options['required'],
+            'data-placeholder' => $options['placeholder'],
         ]);
     }
 
